@@ -78,7 +78,7 @@ it("La qualité du légendaire Sulfuras ne doit pas changer", function() {
   });
 });
 
-it("9/ La qualité d'un objet 'Conjured' diminue 2 fois plus vite qu'un objet normal", function () {
+it("La qualité d'un objet 'Conjured' diminue 2 fois plus vite qu'un objet normal", function () {
   listItems.push(new Conjured("Conjured Magic Stick", -1, 10));
   listItems.push(new Conjured("Conjured Dark Blade", 0, 12));
 
